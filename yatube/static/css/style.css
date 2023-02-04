@@ -1,0 +1,13 @@
+.imgsize{
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.paddtop{
+    padding-top: 5%;
+}
+
+.padddown{
+    padding-bottom: 5%;
+}

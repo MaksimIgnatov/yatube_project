@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Об авторе проекта{% endblock %}
+{% block content %}
+    <div class="row gy-4 text-center paddtop padddown">
+        <h2>Игнатов Максим</h2>  
+        <h5>Студент факультета Бэкенд. Когорта 19+</h5>
+        <img src="{% static 'img/avtor1.jpg' %}" class="imgsize mx-auto" alt="Photo">
+        <h6>Если долго изучать Django получится что-то такое. В будущем здесь появится боллее осмысленный текст.</h6>
+    </div>
+{% endblock %}
